@@ -1,0 +1,6 @@
+com\stonybrook\politech\avro\SchemaGenerator.class
+com\stonybrook\politech\model\GeometricDetails.class
+com\stonybrook\politech\model\GeometricDetailsGenerated.class
+com\stonybrook\politech\avro\Compress.class
+com\stonybrook\politech\model\GeometricDetailsGenerated$1.class
+com\stonybrook\politech\model\GeometricDetailsGenerated$Builder.class

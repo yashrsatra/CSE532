@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc4e8db1-e06c-4a76-8c51-8cb506742c20" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YSUPdxJdlSTGXGq5cnkhLtBcMP" />
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29411766" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.stonybrook.politech.avro" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CompressTest">
+    <configuration name="SalaryStdDev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SalaryStdDev" />
+      <module name="db2jdbc" />
+      <option name="PROGRAM_PARAMETERS" value="sample employee db2admin db2admin" />
+      <option name="VM_PARAMETERS" value="-cp &quot;C:\PROGRA~1\IBM\SQLLIB\java\db2jcc4.jar;C:\Users\yashr\Stony\todb\assignment2\db2jdbc\src&quot;" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../todb/assignment2/db2jdbc/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSE523" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stonybrook.politech.avro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stonybrook.politech.avro" />
+      <option name="MAIN_CLASS_NAME" value="com.stonybrook.politech.avro.CompressTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSE523" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stonybrook.politech.avro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stonybrook.politech.avro" />
+      <option name="MAIN_CLASS_NAME" value="com.stonybrook.politech.avro.CompressTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompressTest.serealizeAvroHttpRequestJSON" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CSE523" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stonybrook.politech.avro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stonybrook.politech.avro" />
+      <option name="MAIN_CLASS_NAME" value="com.stonybrook.politech.avro.CompressTest" />
+      <option name="METHOD_NAME" value="serealizeAvroHttpRequestJSON" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SalaryStdDev" />
+      <item itemvalue="JUnit.CompressTest" />
+      <item itemvalue="JUnit.CompressTest.serealizeAvroHttpRequestJSON" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CompressTest" />
+        <item itemvalue="JUnit.CompressTest.serealizeAvroHttpRequestJSON" />
+        <item itemvalue="JUnit.CompressTest" />
+        <item itemvalue="Application.SalaryStdDev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc4e8db1-e06c-4a76-8c51-8cb506742c20" name="Default Changelist" comment="" />
+      <created>1582935465374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582935465374</updated>
+    </task>
+    <servers />
+  </component>
+</project>
