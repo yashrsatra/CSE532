@@ -1,8 +1,6 @@
 package com.stonybrook.politech.avro;
 
-import com.stonybrook.politech.model.GeometricDetails;
 import com.stonybrook.politech.model.GeometricDetailsGenerated;
-import org.apache.avro.generic.GenericDatumWriter;
 import org.apache.avro.io.DatumWriter;
 import org.apache.avro.io.Encoder;
 import org.apache.avro.io.EncoderFactory;

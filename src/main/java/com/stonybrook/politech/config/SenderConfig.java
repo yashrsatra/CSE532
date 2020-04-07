@@ -1,6 +1,8 @@
 package com.stonybrook.politech.config;
 
+import com.stonybrook.politech.avro.AvroSerialiser;
 import com.stonybrook.politech.kafka.Sender;
+import com.stonybrook.politech.model.GeometricDetailsGenerated;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.beans.factory.annotation.Value;
@@ -27,18 +29,18 @@ public class SenderConfig {
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
                 StringSerializer.class);
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,
-                StringSerializer.class);
+                AvroSerialiser.class);
 
         return props;
     }
 
     @Bean
-    public ProducerFactory<String, String> producerFactory() {
+    public ProducerFactory<String, GeometricDetailsGenerated> producerFactory() {
         return new DefaultKafkaProducerFactory<>(producerConfigs());
     }
 
     @Bean
-    public KafkaTemplate<String, String> kafkaTemplate() {
+    public KafkaTemplate<String, GeometricDetailsGenerated> kafkaTemplate() {
         return new KafkaTemplate<>(producerFactory());
     }
 

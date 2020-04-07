@@ -1,5 +1,6 @@
 package com.stonybrook.politech.kafka;
 
+import com.stonybrook.politech.model.GeometricDetailsGenerated;
 import org.springframework.kafka.annotation.KafkaListener;
 
 import java.util.concurrent.CountDownLatch;
@@ -12,9 +13,10 @@ public class Receiver {
     }
 
     @KafkaListener(topics = "topic", groupId = "helloworld")
-    public void receive(String payload) {
+    public void receive(GeometricDetailsGenerated user) {
         System.out.println("Received Message - ");
-        System.out.println(payload);
+        System.out.println(user.getID());
+        System.out.println(user.getDemVote());
         latch.countDown();
     }
 }

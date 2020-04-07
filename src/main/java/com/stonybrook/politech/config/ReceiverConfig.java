@@ -3,7 +3,9 @@ package com.stonybrook.politech.config;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.stonybrook.politech.avro.AvroDeserializer;
 import com.stonybrook.politech.kafka.Receiver;
+import com.stonybrook.politech.model.GeometricDetailsGenerated;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.springframework.beans.factory.annotation.Value;
@@ -32,9 +34,9 @@ public class ReceiverConfig {
         props.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG,
                 StringDeserializer.class);
         props.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG,
-                StringDeserializer.class);
+                AvroDeserializer.class);
         // allows a pool of processes to divide the work of consuming and processing records
-        props.put(ConsumerConfig.GROUP_ID_CONFIG, "h");
+        props.put(ConsumerConfig.GROUP_ID_CONFIG, "helloworld");
         // automatically reset the offset to the earliest offset
         props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
 
@@ -42,13 +44,15 @@ public class ReceiverConfig {
     }
 
     @Bean
-    public ConsumerFactory<String, String> consumerFactory() {
-        return new DefaultKafkaConsumerFactory<>(consumerConfigs());
+    public ConsumerFactory<String, GeometricDetailsGenerated> consumerFactory() {
+        return new DefaultKafkaConsumerFactory<>(consumerConfigs(), new StringDeserializer(),
+                new AvroDeserializer<>(GeometricDetailsGenerated.class));
+//        return new DefaultKafkaConsumerFactory<String, org.apache.avro.specific.SpecificRecordBase>(consumerConfigs(), new StringDeserializer(), new AvroDeserializer<>(GeometricDetailsGenerated.class));
     }
 
     @Bean
-    public KafkaListenerContainerFactory<ConcurrentMessageListenerContainer<String, String>> kafkaListenerContainerFactory() {
-        ConcurrentKafkaListenerContainerFactory<String, String> factory =
+    public KafkaListenerContainerFactory<ConcurrentMessageListenerContainer<String, GeometricDetailsGenerated>> kafkaListenerContainerFactory() {
+        ConcurrentKafkaListenerContainerFactory<String, GeometricDetailsGenerated> factory =
                 new ConcurrentKafkaListenerContainerFactory<>();
         factory.setConsumerFactory(consumerFactory());
 

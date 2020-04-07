@@ -1,17 +1,16 @@
 package com.stonybrook.politech.avro;
 
 
-import com.stonybrook.politech.model.GeometricDetails;
 import com.stonybrook.politech.model.GeometricDetailsGenerated;
-import org.junit.After;
-import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
 
 import java.io.IOException;
 import java.util.ArrayList;
-@RunWith(JUnit4.class)
+//@RunWith(JUnit4.class)
+@Ignore
 public class CompressTest {
 
 //    @Before
