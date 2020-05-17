@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc4e8db1-e06c-4a76-8c51-8cb506742c20" name="Default Changelist" comment="" />
+    <list default="true" id="dc4e8db1-e06c-4a76-8c51-8cb506742c20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poc-avro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/poc-avro.kotlin_module" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,6 +27,9 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,12 +45,28 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1YSUPdxJdlSTGXGq5cnkhLtBcMP" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29411766" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -65,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CompressTest">
+  <component name="RunManager" selected="Spring Boot.SpringKafkaApplication">
     <configuration name="SalaryStdDev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SalaryStdDev" />
       <module name="db2jdbc" />
@@ -130,13 +161,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringKafkaApplicationIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="poc-avro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stonybrook.politech.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stonybrook.politech.kafka" />
+      <option name="MAIN_CLASS_NAME" value="com.stonybrook.politech.kafka.SpringKafkaApplicationIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringKafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="poc-avro" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stonybrook.politech.SpringKafkaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SalaryStdDev" />
       <item itemvalue="JUnit.CompressTest" />
       <item itemvalue="JUnit.CompressTest.serealizeAvroHttpRequestJSON" />
+      <item itemvalue="JUnit.SpringKafkaApplicationIT" />
+      <item itemvalue="Spring Boot.SpringKafkaApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringKafkaApplicationIT" />
         <item itemvalue="JUnit.CompressTest" />
         <item itemvalue="JUnit.CompressTest.serealizeAvroHttpRequestJSON" />
         <item itemvalue="JUnit.CompressTest" />
@@ -154,7 +210,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582935465374</updated>
+      <workItem from="1586559183754" duration="1162000" />
+      <workItem from="1586799367543" duration="1262000" />
+      <workItem from="1588206213760" duration="1762000" />
+      <workItem from="1589742618161" duration="343000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
